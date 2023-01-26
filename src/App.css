@@ -7,8 +7,26 @@
   height: 100px;
 }
 
-.nue-button:hover {
+.nue-button:active {
   border-radius: 50px;
   background: #ededed;
   box-shadow: inset 21px 21px 42px #c9c9c9, inset -21px -21px 42px #ffffff;
+}
+
+.nue-profile {
+  border-radius: 15px;
+  background: linear-gradient(145deg, #d5d5d5, #fefefe);
+  box-shadow:  21px 21px 42px #c9c9c9, -21px -21px 42px #ffffff;
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.nue-bio {
+  border-radius: 15px;
+  background: linear-gradient(315deg, #fefefe, #d5d5d5);
+  box-shadow: -21px -21px 42px #c9c9c9, 21px 21px 42px #ffffff;
+  margin: 50px;
+  width: inherit;
+  height: 100px;
 }
