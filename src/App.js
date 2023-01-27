@@ -14,7 +14,11 @@ function App() {
                         <div className="nue-button"></div>
                         <div className="nue-button"></div>
                     </div> :
-                    <div></div>
+                    <div className="nue-bio">
+                        <h4>
+                            You can only access this site in a mobile browser.
+                        </h4>
+                    </div>
             }
         </div>
     )
