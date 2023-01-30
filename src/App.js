@@ -1,8 +1,45 @@
 import './App.css';
 import { isMobile } from 'mobile-device-detect';
+import { useEffect } from "react";
+import ClipboardJS from "clipboard";
 
 // <img src="https://picsum.photos/200/300" className="nue-button" alt=""></img>
 function App() {
+    useEffect(() => {
+        new ClipboardJS(document.getElementById('phone-btn'));
+    }, [])
+
+    const goToURL = (service) => {
+        switch(service) {
+            case 'phone':
+                window.open('tel:900300400');
+                break;
+            case 'link':
+                window.open('https://cople.app/viraj_portfolio/');
+                break;
+            case 'github':
+                window.open('https://github.com/viraj325');
+                break;
+            case 'linkedin':
+                window.open('https://www.linkedin.com/in/viraj-patel-b9baa3143/');
+                break;
+            case 'facebook':
+                window.open('https://www.facebook.com/viraj.patel.16906715/');
+                break;
+            case 'instagram':
+                window.open('https://www.instagram.com/virajp325/');
+                break;
+            case 'apple':
+                window.open('https://apps.apple.com/us/app/seed-social/id6443686127');
+                break;
+            case 'android':
+                window.open('https://play.google.com/store/apps/dev?id=9091018492096140585');
+                break;
+            default:
+                console.log('No options selected. Try again.')
+        }
+    }
+
     return (
         <div>
             {
@@ -15,7 +52,7 @@ function App() {
                             <p>Hey there, it's <b><span style={{ color: "purple" }}>Viraj</span></b>! I currently work at <b><span style={{ color: "purple" }}>JPMorgan Chase & Co. as a Software Engineer</span></b>. This is my nfc profile page, feel free to click any of those buttons to <b><span style={{ color: "purple" }}>connect with me</span></b> via that network.</p>
                         </div>
                         <div className="center-horizontal-div">
-                            <div className="nue-button">
+                            <div id="phone-btn" className="nue-button" data-clipboard-text="6146578396">
                                 <img className="img-icon" src="https://user-images.githubusercontent.com/37918393/215451245-b16f1c3c-bab4-49b6-ae84-e6eb1aece50c.png" alt=""/>
                             </div>
                             <div className="nue-button">
