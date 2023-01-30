@@ -1,5 +1,6 @@
-img {
-  object-fit: cover;
+.img-icon {
+  width: 35px;
+  height: 35px;
 }
 
 .nue-button {
@@ -9,6 +10,9 @@ img {
   margin: 25px;
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nue-button:active {
@@ -21,9 +25,10 @@ img {
   border-radius: 15px;
   background: linear-gradient(145deg, #d5d5d5, #fefefe);
   box-shadow: 21px 21px 42px #c9c9c9, -21px -21px 42px #ffffff;
-  margin: 50px 20px 0px 20px;
+  margin: 50px 20px 0 20px;
   width: 100px;
   height: 100px;
+  object-fit: cover;
 }
 
 .nue-bio {
@@ -31,8 +36,13 @@ img {
   background: linear-gradient(315deg, #fefefe, #d5d5d5);
   box-shadow: -21px -21px 42px #c9c9c9, 21px 21px 42px #ffffff;
   margin: 50px;
+  padding: 20px;
   width: inherit;
   height: 100px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .center-horizontal-div {
