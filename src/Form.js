@@ -9,6 +9,11 @@ function Form() {
 
     const saveInfo = () => {
         console.log("To do")
+        if (firstName !== null && lastName !== null && email !== null && phoneNumber !== null) {
+
+        } else {
+            console.log("All or some fields are empty and try again.")
+        }
     }
 
     return (
