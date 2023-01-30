@@ -21,7 +21,7 @@ img {
   border-radius: 15px;
   background: linear-gradient(145deg, #d5d5d5, #fefefe);
   box-shadow: 21px 21px 42px #c9c9c9, -21px -21px 42px #ffffff;
-  margin: 50px 20px 20px 50px;
+  margin: 50px 20px 0px 20px;
   width: 100px;
   height: 100px;
 }
