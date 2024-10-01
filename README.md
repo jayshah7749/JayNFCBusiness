@@ -1,4 +1,9 @@
 # NFC Business Contact
+
+## What is it?
+
+A custom hosted site with my contact/business information.
+
 ![link](https://user-images.githubusercontent.com/37918393/215445843-427ba3b4-20eb-4fa1-990d-a3a445f028f6.png)
 ![logo_apple](https://user-images.githubusercontent.com/37918393/215451234-050607bc-846f-4d6b-b899-c78a034c1c02.png)
 ![android](https://user-images.githubusercontent.com/37918393/215451235-3c63e708-6a0d-4053-8d4a-081443249838.png)
